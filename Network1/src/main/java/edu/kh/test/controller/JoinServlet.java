@@ -16,6 +16,10 @@ public class JoinServlet extends HttpServlet {
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// do post 방식으로 오버라이드, 
+		// req(리퀘스트) 클라이언트로부터 받은 요청
+		// rqep(리스폰즈) 받은 요청에 대한 대응
+		
 
 		List<Member> memberList = new ArrayList<Member>();
 
