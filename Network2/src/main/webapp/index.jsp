@@ -13,8 +13,8 @@
   <h1>회원가입</h1>
   <form action="/join" method="post">
     <%-- 4) memberXX -> inputXX --%>
-    아이디 : <input type="text" name="inputId" required><br>
-    비밀번호 : <input type="password" name="inputPw" required><br>
+    아이디 : <input type="text" name="memberId" required><br>
+    비밀번호 : <input type="password" name="memberPw" required><br>
     <button>전송</button>
   </form>
 </body>
